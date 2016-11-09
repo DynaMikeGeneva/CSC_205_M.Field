@@ -1,0 +1,20 @@
+﻿@model IEnumerable<CSC205_Madeira.Models.Family>
+
+@{
+    ViewBag.Title = "index";
+}
+
+<h2>index</h2>
+<p>
+    Select from @Model.Count()
+    families:
+</p>
+<ul>
+    @foreach (var family in Model)
+            {
+        <li>@family.familyname @family.city, @family.state</li>
+    }
+</ul>
+
+
+

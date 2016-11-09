@@ -1,0 +1,63 @@
+﻿@model IEnumerable<CSC205_Madeira.Models.Person>
+
+@{
+    ViewBag.Title = "Peoples";
+}
+
+<h2>Peoples</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.firstname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.middlename)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lastname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cell)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.relationship)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.familyId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.firstname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.middlename)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lastname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cell)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.relationship)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.familyId)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

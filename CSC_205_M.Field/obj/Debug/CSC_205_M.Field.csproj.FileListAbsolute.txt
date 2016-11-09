@@ -1,0 +1,246 @@
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\ApplicationInsights.config
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\csc.exe
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\System.Collections.Immutable.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\System.Reflection.Metadata.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\vbc.exe
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\VBCSCompiler.exe
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\VBCSCompiler.exe.config
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\CSC_205_M.Field.dll.config
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\CSC_205_M.Field.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\CSC_205_M.Field.pdb
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Antlr3.Runtime.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\EntityFramework.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\EntityFramework.SqlServer.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.DependencyCollector.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.Web.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.WindowsServer.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.ApplicationInsights.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Google.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Web.Infrastructure.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Newtonsoft.Json.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Owin.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Helpers.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Mvc.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Optimization.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Razor.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.Deployment.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.Razor.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\WebGrease.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.DependencyCollector.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.Web.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.WindowsServer.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.ApplicationInsights.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Helpers.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Mvc.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Optimization.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Razor.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.Deployment.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.Razor.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Antlr3.Runtime.pdb
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Newtonsoft.Json.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\EntityFramework.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\EntityFramework.SqlServer.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Google.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\obj\Debug\CSC_205_M.Field.csprojResolveAssemblyReference.cache
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\obj\Debug\CSC_205_M.Field.dll
+E:\Visual Studio Apps\CSC_205_M.Field\CSC_205_M.Field\obj\Debug\CSC_205_M.Field.pdb
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\ApplicationInsights.config
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\csc.exe
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\System.Collections.Immutable.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\System.Reflection.Metadata.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\vbc.exe
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\VBCSCompiler.exe
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\VBCSCompiler.exe.config
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\CSC_205_M.Field.dll.config
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\CSC_205_M.Field.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\CSC_205_M.Field.pdb
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Antlr3.Runtime.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\EntityFramework.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\EntityFramework.SqlServer.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.Agent.Intercept.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.DependencyCollector.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.Web.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.WindowsServer.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.ApplicationInsights.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.Core.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Cookies.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Facebook.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Google.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.OAuth.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Twitter.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Web.Infrastructure.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Newtonsoft.Json.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Owin.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Helpers.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Mvc.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Optimization.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Razor.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.Deployment.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.Razor.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\WebGrease.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.DependencyCollector.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.Web.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.WindowsServer.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.ApplicationInsights.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Helpers.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Mvc.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Optimization.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Razor.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.Deployment.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.Razor.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Antlr3.Runtime.pdb
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Newtonsoft.Json.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\EntityFramework.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\EntityFramework.SqlServer.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.Core.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Facebook.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Cookies.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.OAuth.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Google.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Twitter.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\CSC_205_M.Field\CSC_205_M.Field\obj\Debug\CSC_205_M.Field.csprojResolveAssemblyReference.cache
+E:\CSC_205_M.Field\CSC_205_M.Field\obj\Debug\CSC_205_M.Field.dll
+E:\CSC_205_M.Field\CSC_205_M.Field\obj\Debug\CSC_205_M.Field.pdb
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\ApplicationInsights.config
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\csc.exe
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\System.Collections.Immutable.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\System.Reflection.Metadata.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\vbc.exe
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\VBCSCompiler.exe
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\roslyn\VBCSCompiler.exe.config
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\CSC_205_M.Field.dll.config
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\CSC_205_M.Field.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\CSC_205_M.Field.pdb
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Antlr3.Runtime.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\EntityFramework.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\EntityFramework.SqlServer.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.Agent.Intercept.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.DependencyCollector.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.Web.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.WindowsServer.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.ApplicationInsights.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.Core.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Cookies.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Facebook.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Google.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.OAuth.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Twitter.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Web.Infrastructure.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Newtonsoft.Json.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Owin.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Helpers.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Mvc.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Optimization.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Razor.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.Deployment.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.Razor.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\WebGrease.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.DependencyCollector.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.Web.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AI.WindowsServer.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.ApplicationInsights.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Helpers.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Mvc.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Optimization.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.Razor.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.Deployment.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\System.Web.WebPages.Razor.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Antlr3.Runtime.pdb
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Newtonsoft.Json.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\EntityFramework.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\EntityFramework.SqlServer.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.Core.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Facebook.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Cookies.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.OAuth.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Google.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.Twitter.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\CSC_205_M.Field\CSC_205_M.Field\obj\Debug\CSC_205_M.Field.csprojResolveAssemblyReference.cache
+G:\CSC_205_M.Field\CSC_205_M.Field\obj\Debug\CSC_205_M.Field.dll
+G:\CSC_205_M.Field\CSC_205_M.Field\obj\Debug\CSC_205_M.Field.pdb
