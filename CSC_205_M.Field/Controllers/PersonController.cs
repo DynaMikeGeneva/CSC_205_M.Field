@@ -1,5 +1,6 @@
 ﻿using CSC205_Madeira.Models;
 using System.Collections.Generic;
+using System.Linq;
 using System.Web.Mvc;
 using System.Web.Routing;
 
@@ -32,18 +33,6 @@ namespace CSC_205_M.Field.Controllers
             };
 
         }
-
-        /**
-         * Session isn't available when the constructor is called.  Therefore, you need
-         * to store the list in the Initialize method.
-         * 
-         * This method checks to see of the peopleList is already in Session.  If not,
-         * it save the list to the session.  If it is already in session the method does nothing.
-         * 
-         * This StackOverflow entry talks about it:
-         * http://stackoverflow.com/questions/18234355/get-an-existing-session-in-my-basecontroller-constructor
-         * 
-         */
         protected override void Initialize(RequestContext requestContext)
         {
             base.Initialize(requestContext);
@@ -52,42 +41,37 @@ namespace CSC_205_M.Field.Controllers
                 Session["peopleList"] = people;
             }
         }
-
-        // GET: Person
+        // GET: Personal
         public ActionResult Index()
         {
             var p = (List<Person>)Session["peopleList"];
             return View(p);
         }
 
-        // GET: Person/Details/5
+        // GET: Personal/Details/5
         public ActionResult Details(int id)
         {
-            // Get the list of people from the session
             var pList = (List<Person>)Session["peopleList"];
-
-            // Get the person with the passed in ID
             var p = pList[id];
-
-            // Return the person data to the view
             return View(p);
         }
 
-        // GET: Person/Create
+        // GET: Personal/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Person/Create
+        // POST: Personal/Create
         [HttpPost]
         public ActionResult Create(FormCollection collection)
         {
             try
             {
+                people = (List<Person>)Session["peopleList"];
                 Person newPerson = new Person()
                 {
-                    id = 99,
+                    id = people.Count(),
                     firstname = collection["firstname"],
                     middlename = collection["middlename"],
                     lastname = collection["lastname"],
@@ -96,12 +80,8 @@ namespace CSC_205_M.Field.Controllers
                     familyId = int.Parse(collection["familyId"]
                     )
                 };
-
-                // Add the person to the list
                 people = (List<Person>)Session["peopleList"];
                 people.Add(newPerson);
-
-                // Save the list to the session
                 Session["peopleList"] = people;
 
                 return RedirectToAction("Index");
@@ -112,22 +92,43 @@ namespace CSC_205_M.Field.Controllers
             }
         }
 
-        // GET: Person/Edit/5
+        // GET: Personal/Edit/5
         public ActionResult Edit(int id)
         {
-            var p = people[id];
-
+            var pList = (List<Person>)Session["peopleList"];
+            var p = pList[id];
+            TempData["notice"] = "Person Updated";
             return View(p);
         }
 
-        // POST: Person/Edit/5
+        // POST: Personal/Edit/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
             try
             {
-                // TODO: Add update logic here
+                var pList = (List<Person>)Session["peopleList"];
+                var p = pList[id];
 
+                Person newPerson = new Person()
+                {
+                    id = id,
+                    firstname = collection["firstname"],
+                    middlename = collection["middlename"],
+                    lastname = collection["lastname"],
+                    cell = collection["cell"],
+                    relationship = collection["relationship"],
+                    familyId = int.Parse(collection["familyId"]
+                   )
+                };
+                pList.Where(x => x.id == id).First().firstname = collection["firstname"];
+                pList.Where(x => x.id == id).First().middlename = collection["middlename"];
+                pList.Where(x => x.id == id).First().lastname = collection["lastname"];
+                pList.Where(x => x.id == id).First().cell = collection["cell"];
+                pList.Where(x => x.id == id).First().relationship = collection["relationship"];
+                pList.Where(x => x.id == id).First().familyId = int.Parse(collection["familyId"]);
+
+                TempData["notice"] = "Person Updated";
                 return RedirectToAction("Index");
             }
             catch
@@ -136,23 +137,33 @@ namespace CSC_205_M.Field.Controllers
             }
         }
 
-        // GET: Person/Delete/5
+        // GET: Personal/Delete/5
         public ActionResult Delete(int id)
         {
-            var p = people[id];
-
+            var pList = (List<Person>)Session["peopleList"];
+            var p = pList[id];
             return View(p);
         }
 
-        // POST: Person/Delete/5
+        // POST: Personal/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {
             try
             {
-                // TODO: Add delete logic here
+                var pList = (List<Person>)Session["peopleList"];
+                var p = pList[id];
+
+                Session["peopleList"] = pList.Where(x => x.id != id).ToList();
+                pList = (List<Person>)Session["peopleList"];
+                for (int x = id; x < pList.Count(); x++)
+                {
+                    if (pList[x] != null)
+                        pList[x].id = x;
+                }
 
                 return RedirectToAction("Index");
+
             }
             catch
             {
