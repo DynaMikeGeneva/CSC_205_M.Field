@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #cfdff9;
 }
 
 
@@ -23,4 +24,216 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.jumbotron {
+    background-color: #cfdff9;
+}
+.navbar {
+    color: #000000;
+    background-color: #224f96;
+    border-color: #FFFFFF;
+    padding: 20px;
+}
+.a{
+    color:#111111;
+}
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+    font-family:Tahoma;
+    font-size:65px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFFFFF;
+    font-family:Tahoma;
+    font-size:18px;
+}
+h1{
+    font-size:100px;
+}
+hr{
+    border-top-color: #000000;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #eeeeee;
+}
+
+.logininput{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.h2{
+    font-family:Tahoma;  
+}
+
+.body-content{
+    margin-top: 45px;
+}
+
+.adjtable{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  display:table;
+}
+.adjtable tr{
+    padding:15px;
+    border-bottom: 1px solid #000000;
+}
+.adjtable tr:hover {
+    background-color: #eeeeee;
+}
+#familybutton{
+    width: 45%;
+    height: 250px;
+    text-align:center;
+    font-size: 75px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url(http://www.clipartkid.com/images/675/clipart-family-of-four-Bo76Zx-clipart.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position-x:50%;
+    color:#224f96;
+    -webkit-text-stroke: 1px white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-position:bottom;
+}
+#personbutton{
+    width: 45%;
+    height: 250px;
+    text-align:center;
+    font-size: 75px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url(http://images.clipartpanda.com/best-man-clipart-ncBGXMAcA.svg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position-x:50%;
+    color:#224f96;
+    -webkit-text-stroke: 1px white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-position:bottom;
+}
+
+
+
+
+
+@media (max-width: 1200px){
+    .navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+    font-family:Tahoma;
+    font-size:55px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFFFFF;
+    font-family:Tahoma;
+    /*font-size:15px;*/
+    padding: 10px 8px;
+}
+#familybutton{
+    font-size:50px;
+}
+#personbutton{
+    font-size:50px;
+}
+}
+
+@media (max-width: 992px){
+    .navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+    font-family:Tahoma;
+    font-size:45px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFFFFF;
+    font-family:Tahoma;
+    font-size:15px;
+    padding: 10px 5px;
+}
+h1{
+    font-size:75px;
+}
+}
+
+@media (max-width: 770px){
+.lead{
+    margin-top:25px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFFFFF;
+    font-family:Tahoma;
+    font-size:15px;
+    padding: 10px 2px;
+}
+h1{
+    font-size:50px;
+}
+#familybutton{
+    font-size:30px;
+}
+#personbutton{
+    font-size:30px;
+}
+}
+@media (max-width:650px){
+    .adjtable{
+        width:650px;
+    }
+}
+@media(max-width:450px){
+#familybutton{
+    font-size:20px;
+    -webkit-text-stroke: 0px;
+}
+#personbutton{
+    font-size:20px;
+    -webkit-text-stroke: 0px;
+}
+}
+
+
+@media (max-width:348px){
+        .navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+    font-family:Tahoma;
+    font-size:35px;
+}
+        .logininput{
+         max-width: 200px;
+        }
+        .select{
+        max-width: 200px;
+        }
+        .dropdownreg{
+            font-size:10px;
+        }
+        #familybutton{
+            font-size:15px;
+            height:200px;
+        }
+        #personbutton{
+            font-size:15px;
+            height:200px;
+        }
+}
+@media (max-width:300px){
+        .navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+    font-family:Tahoma;
+    font-size:25px;
+}
+        .actionlincs{
+            font-size: 10px;
+        }
 }

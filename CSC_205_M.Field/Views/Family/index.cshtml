@@ -10,121 +10,130 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table>
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.familyname)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.address1)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.city)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.state)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.zip)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.homephone)
-        </th>
-        <th></th>
-    </tr>
-
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.familyname)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.address1)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.city)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.state)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.zip)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.homephone)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
-                @Html.ActionLink("Details", "Details", new { id = item.id }) |
-                <a class="delete-link" href="@Url.Action("Delete", new {id=item.id})">Delete</a>
-                <div class="btn btn-primary delete-confirm" style="display:none" data-delete-id="@item.id">Are you sure?</div>
-            </td>
+<div class="table-responsive">
+    <table class="adjtable">
+        <tr style="border-bottom:0px">
+        <th>Family</th>
+        <th>Address</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Zip</th>
+        <th>Phone</th>
         </tr>
+        @*<tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.familyname)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.address1)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.city)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.state)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.zip)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.homephone)
+                </th>
+                <th></th>
+            </tr>*@
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.familyname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.address1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.city)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.state)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.zip)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.homephone)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.id }) |
+                    <a class="delete-link" href="@Url.Action("Delete", new {id=item.id})">Delete</a>
+                    <div class="btn btn-primary delete-confirm" style="display:none" data-delete-id="@item.id">Are you sure?</div>
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+    @section scripts{
+        <script type="text/javascript">
+            $(function () {
+                $("a.delete-link").click(function () {
+                    var deleteLink = $(this);
+                    deleteLink.hide();
+                    var confirmButton = deleteLink.siblings(".delete-confirm");
+                    confirmButton.show();
+
+                    var cancelDelete = function () {
+                        removeEvents();
+                        showDeleteLink();
+                    };
+
+                    var deleteItem = function () {
+                        removeEvents();
+                        confirmButton.hide();
+                        $.post(
+                            '@Url.Action("Delete")',
+                            AddAntiForgeryToken({ id: confirmButton.attr('data-delete-id') }))
+                           .done(function () {
+                               var parentRow = deleteLink.parents("tr:first");
+                               parentRow.fadeOut('fast', function () {
+                                   parentRow.remove();
+                               });
+                           }).fail(function (data) {
+                               alert("error");
+                           });
+                        return false;
+                    };
+
+                    var removeEvents = function () {
+                        confirmButton.off("click", deleteItem);
+                        $(document).on("click", cancelDelete);
+                        $(document).off("keypress", onKeyPress);
+                    };
+
+                    var showDeleteLink = function () {
+                        confirmButton.hide();
+                        deleteLink.show();
+                    };
+
+                    var onKeyPress = function (e) {
+                        //Cancel if escape key pressed
+                        if (e.which == 27) {
+                            cancelDelete();
+                        }
+                    };
+
+                    confirmButton.on("click", deleteItem);
+                    $(document).on("click", cancelDelete);
+                    $(document).on("keypress", onKeyPress);
+
+                    return false;
+                });
+
+                AddAntiForgeryToken = function (data) {
+                    data.__RequestVerificationToken = $('input[name=__RequestVerificationToken]').val();
+                    return data;
+                };
+            });
+        </script>
     }
-
-</table>
-
-@section scripts{
-    <script type="text/javascript">
-    $(function () {
-        $("a.delete-link").click(function () {
-            var deleteLink = $(this);
-            deleteLink.hide();
-            var confirmButton = deleteLink.siblings(".delete-confirm");
-            confirmButton.show();
-
-            var cancelDelete =  function () {
-                removeEvents();
-                showDeleteLink();
-            };
-
-            var deleteItem = function () {
-                removeEvents();
-                confirmButton.hide();
-                $.post(
-                    '@Url.Action("Delete")',
-                    AddAntiForgeryToken({ id: confirmButton.attr('data-delete-id') }))
-                   .done(function () {
-                       var parentRow = deleteLink.parents("tr:first");
-                       parentRow.fadeOut('fast', function () {
-                           parentRow.remove();
-                       });
-                   }).fail(function (data) {
-                       alert("error");
-                   });
-                return false;
-            };
-
-            var removeEvents = function () {
-                confirmButton.off("click", deleteItem);
-                $(document).on("click", cancelDelete);
-                $(document).off("keypress", onKeyPress);
-            };
-
-            var showDeleteLink = function () {
-                confirmButton.hide();
-                deleteLink.show();
-            };
-
-            var onKeyPress = function (e) {
-                //Cancel if escape key pressed
-                if (e.which == 27) {
-                    cancelDelete();
-                }
-            };
-
-            confirmButton.on("click", deleteItem);
-            $(document).on("click", cancelDelete);
-            $(document).on("keypress", onKeyPress);
-
-            return false;
-        });
-
-        AddAntiForgeryToken = function (data) {
-            data.__RequestVerificationToken = $('input[name=__RequestVerificationToken]').val();
-            return data;
-        };
-    });
-    </script>
-}
