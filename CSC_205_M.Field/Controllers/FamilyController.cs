@@ -1,4 +1,5 @@
 ﻿using CSC205_Madeira.Models;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
@@ -40,7 +41,7 @@ namespace CSC_205_M.Field.Controllers
         // GET: Family/Details/5
         public ActionResult Details(int id)
         {
-            var fList = (List<Family>)Session["familyList"];
+            var fList =Session["familyList"] as List<Family>;
             var f = fList[id];
 
             return View(f);
@@ -121,7 +122,7 @@ namespace CSC_205_M.Field.Controllers
                 fList.Where(x => x.id == id).First().state = collection["state"];
                 fList.Where(x => x.id == id).First().zip = collection["zip"];
                 fList.Where(x => x.id == id).First().homephone = collection["homephone"];
-                //Session["peopleList"] = pList.Where(x => x.id != id).ToList();
+                //Session["peopleList"] = IList.Where(x => x.id != id).ToList();
                 return RedirectToAction("Index");
             }
             catch
